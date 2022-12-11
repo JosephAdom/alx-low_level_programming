@@ -12,6 +12,7 @@ int main(void)
 	int m;
 
 	int l;
+
 	for (n = 48; n < 58; n++)
 	{
 		for (m = 49; m < 58; m++)
