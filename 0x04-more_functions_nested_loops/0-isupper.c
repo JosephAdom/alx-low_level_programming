@@ -3,23 +3,18 @@
 
 /**
  * _isupper - Function that checks for uppercase character.
- * @c: Input character
- * Return: Always 0 (success)
+ * @c: Input character.
+ * Return: 1 if is an uppercase character, 0 in other case.
  */
 
 int _isupper(int c)
 {
-	char uppercase = 'A';
-
-	int isupper = 0;
-
-	for (c = 0; uppercase <= 'Z'; uppercase++)
+	if (c >= 65 && c <= 90)
 	{
-		if (c == uppercase)
-		{
-			isupper = 1;
-			break;
-		}
+		return (1);
 	}
-	return (isupper);
+	else
+	{
+		return (0);
+	}
 }
