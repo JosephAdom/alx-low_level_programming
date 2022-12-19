@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * swap_int - swaps the values of two integers
- * Qa: Pointer to first value
- * Qb: Pointer to second value
+ * swap_int - swaps the values of two integers (*a) and (*b)
+ * Qa: Pointer to first value (*a)
+ * Qb: Pointer to second value (*b)
  * Return: Always 0 (success)
  */
 
