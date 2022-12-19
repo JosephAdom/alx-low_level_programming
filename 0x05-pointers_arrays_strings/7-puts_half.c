@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * put_half - prints half of a string
- * followed by a new line
+ * puts_half - prints half of a string followed by a new line
  * @str: string to be printed
- * @n: (length of the string -1) / 2
+ * 
  * Return: Always 0 (success)
  */
 
