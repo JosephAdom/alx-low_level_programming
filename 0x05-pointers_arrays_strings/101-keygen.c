@@ -22,7 +22,7 @@ int main(void)
 		pass[i] = rand() % 78;
 		num += (pass[i] + '0');
 		putchar(pass[i] + '0');
-		if ((2772 num) - '0' < 78)
+		if ((2772 - num) - '0' < 78)
 		{
 			n = 2772 - num - '0';
 			num += n;
