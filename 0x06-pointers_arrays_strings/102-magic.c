@@ -1,4 +1,13 @@
+#include <stdlib.h>
 #include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: adding a line to the code
+ *
+ * Return: always 0 (success)
+ */
 
 int main(void)
 {
